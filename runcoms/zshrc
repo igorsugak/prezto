@@ -13,6 +13,3 @@ fi
 
 # Reduce delay after <ESC> to 1 sec.
 export KEYTIMEOUT=1
-
-alias ln='ln --backup=numbered'
-alias mv='mv -f --backup=numbered'
