@@ -5,6 +5,7 @@
 #   Robby Russell <robby@planetargon.com>
 #   Suraj N. Kurapati <sunaku@gmail.com>
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
+#   Igor Sugak <sugak.igor@gmail.com>
 #
 
 # Load dependencies.
@@ -48,15 +49,14 @@ alias sftp='noglob sftp'
 # Define general aliases.
 alias _='sudo'
 alias b='${(z)BROWSER}'
-alias cp="${aliases[cp]:-cp} -i"
+alias cp="${aliases[cp]:-cp} --backup=numbered"
 alias e='${(z)VISUAL:-${(z)EDITOR}}'
-alias ln="${aliases[ln]:-ln} -i"
+alias ln="${aliases[ln]:-ln} --backup=numbered"
 alias mkdir="${aliases[mkdir]:-mkdir} -p"
-alias mv="${aliases[mv]:-mv} -i"
+alias mv="${aliases[mv]:-mv} -f --backup=numbered"
 alias p='${(z)PAGER}'
 alias po='popd'
 alias pu='pushd'
-alias rm="${aliases[rm]:-rm} -i"
 alias type='type -a'
 
 # ls
