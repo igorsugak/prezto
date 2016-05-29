@@ -49,11 +49,11 @@ alias sftp='noglob sftp'
 # Define general aliases.
 alias _='sudo'
 alias b='${(z)BROWSER}'
-alias cp="${aliases[cp]:-cp} --backup=numbered"
+#alias cp="${aliases[cp]:-cp} --backup=numbered"
 alias e='${(z)VISUAL:-${(z)EDITOR}}'
-alias ln="${aliases[ln]:-ln} --backup=numbered"
+#alias ln="${aliases[ln]:-ln} --backup=numbered"
 alias mkdir="${aliases[mkdir]:-mkdir} -p"
-alias mv="${aliases[mv]:-mv} -f --backup=numbered"
+#alias mv="${aliases[mv]:-mv} -f --backup=numbered"
 alias p='${(z)PAGER}'
 alias po='popd'
 alias pu='pushd'
